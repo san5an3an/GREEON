@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ko</string>
+	<key>CFBundleDisplayName</key>
+	<string>GREEON</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GREEON은 주변의 충전소를 찾기 위해 위치서비스를 필수적으로 사용합니다.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>충전 시 충전기 QR코드 스캔을 위해 카메라를 사용합니다.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>제보 및 문의 시 이미지 첨부를 위해 사진 보관함을 사용합니다.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Outfit-Regular.ttf</string>
+		<string>SUITE-Light.otf</string>
+		<string>SUITE-Regular.otf</string>
+		<string>SUITE-Medium.otf</string>
+		<string>SUITE-Bold.otf</string>
+		<string>SUITE-SemiBold.otf</string>
+		<string>SUITE-ExtraBold.otf</string>
+	</array>
+</dict>
+</plist>
