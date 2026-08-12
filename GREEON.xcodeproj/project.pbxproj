@@ -22,6 +22,7 @@
 		754DD891174668ED28699293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C68B6E184A0A6D616B576E5 /* Assets.xcassets */; };
 		7B92F9492B153FB1C42994B8 /* LocationPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F23AC95E47F7236730D7A9D /* LocationPermissionService.swift */; };
 		867DFA485B6535CD428AE926 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71AD861266513078020D10 /* LoginViewModel.swift */; };
+		8C04662DDC19A5D65303DB9C /* InteractivePopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41703CEC76CC019536851F /* InteractivePopGesture.swift */; };
 		8D702620A22E8FF9FAA4C27B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A686311CFC217BC34BE6B3 /* MainTabView.swift */; };
 		90CAED0EAE486E87F83B7A13 /* SUITE-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9054188329FCE5FAAA8E05D1 /* SUITE-Regular.otf */; };
 		9145FEF93C09F8EFCE95C1D2 /* SUITE-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21155AE6C824784B55832C65 /* SUITE-Light.otf */; };
@@ -72,6 +73,7 @@
 		D206871267C76C4F0C9E3F95 /* GREEONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GREEONApp.swift; sourceTree = "<group>"; };
 		EDEB3745423031B8CD1224EB /* ScrollShadowHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollShadowHeader.swift; sourceTree = "<group>"; };
 		F1D0D6982B31CD1481E3A245 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		FB41703CEC76CC019536851F /* InteractivePopGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGesture.swift; sourceTree = "<group>"; };
 		FED92A08F2E1A3BC9D7FF3DB /* PermissionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8FF50F7654C1FCF8B6F76EC5 /* BackButton.swift */,
+				FB41703CEC76CC019536851F /* InteractivePopGesture.swift */,
 				59CC476F1FA406569E4B7725 /* ScrollOffsetPreferenceKey.swift */,
 				EDEB3745423031B8CD1224EB /* ScrollShadowHeader.swift */,
 			);
@@ -337,6 +340,7 @@
 				E96AEFAE2B7C35906B50055C /* GREEONApp.swift in Sources */,
 				1ED57276B4A5ECF7407A48EB /* HomeView.swift in Sources */,
 				33F0A2AAD398591B39C2B9B3 /* HomeViewModel.swift in Sources */,
+				8C04662DDC19A5D65303DB9C /* InteractivePopGesture.swift in Sources */,
 				DF67EC52CF821F0857CDD740 /* LocationPermissionProviding.swift in Sources */,
 				7B92F9492B153FB1C42994B8 /* LocationPermissionService.swift in Sources */,
 				B53CB71C954DA8FAFBF98D2B /* LoginView.swift in Sources */,
